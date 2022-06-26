@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="script.js"></script>
+	<title>Список дел</title>
+</head>
+<body>
+	<div class="fixed-container">
+		<div id="to-do-list">
+			<div class="heading">Список дел:</div>
+			<div id="list-empty">Список пуст...</div>
+		</div>
+		<div id="new-case">
+			<div class="heading">Добавить новое дело</div>
+			<div class="case">
+				<form method="post">
+					<label for="name-field-input">* Название</label>
+					<input id="name-field-input" type="text" name="name-field">
+					<label for="description-field">* Описание</label>
+					<textarea id="description-field" name="description-field"></textarea>
+					<button id="add-button">Добавить дело</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

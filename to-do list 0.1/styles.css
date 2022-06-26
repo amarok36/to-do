@@ -1,0 +1,120 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+	background-color: #f5f5f5;
+}
+
+.fixed-container {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.heading {
+	font-size: 21px;
+	margin-top: 65px;
+	margin-bottom: 30px;
+}
+
+#list-empty {
+	font-size: 16px;
+	color: #8993ad;
+	margin-top: 70px;
+}
+
+#to-do-list {
+	width: 470px;
+	float: left;
+}
+
+.case {
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.case-title {
+	font-size: 16px;
+	padding: 20px 0 16px 20px;
+	border-bottom: 1px solid #f5f5f5;
+	background-image: url('img/arrow.png');
+	background-repeat: no-repeat;
+	background-position: right 25px bottom 23px;
+	cursor: pointer;
+}
+
+.clear-button {
+	width: 10px;
+    height: 10px;
+    margin-left: 20px;
+	background-image: url('img/clear-button.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.case-body {
+	font-size: 14px;
+	color: #8993ad;
+	height: 85px;
+	padding: 10px 0 0 20px;
+}
+
+#new-case {
+	width: 470px;
+	float: right;
+	margin-left: 20px;
+}
+
+form {
+	padding-top: 30px;
+	margin: 30px 0 0 40px;
+}
+
+label {
+	font-size: 14px;
+	color: #8993ad;
+	margin-bottom: 10px;
+}
+
+input, label {
+    display:block;
+}
+
+#name-field-input, #description-field {
+	display: block;
+	width: 365px;
+	padding: 0.375rem 0.75rem;
+	font-family: inherit;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fcfcfc;
+	background-clip: padding-box;
+	border: 1px solid #e5e5e5;
+} 
+
+#name-field-input {
+	height: 2.25rem;
+	margin-bottom: 25px;	
+}
+
+#description-field {
+	height: 230px;
+	margin-bottom: 30px;
+	resize: none;
+}
+
+#add-button {
+	margin-bottom: 35px;
+	background-color: #2174fd;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
